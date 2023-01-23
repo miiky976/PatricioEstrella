@@ -210,6 +210,20 @@ public class Screen extends javax.swing.JFrame {
         int[] tlx = {87*xs+x, 83*xs+x};
         int[] tly = {110*ys+y, 113*ys+y};
         g.drawPolygon(tlx, tly, 2);
+        int[] slhx = {120*xs+x, 116*xs+x};
+        int[] slhy = {192*ys+y, 195*ys+y};
+        g.drawPolygon(slhx, slhy, 2);
+        int[] slvx = {87*xs+x, 88*xs+x};
+        int[] slvy = {198*ys+y, 193*ys+y};
+        g.drawPolygon(slvx, slvy, 2);
+        
+        int[] elx = {78*xs+x, 85*xs+x, 78*xs+x, 85*xs+x, 78*xs+x, 85*xs+x};
+        int[] ely = {56*ys+y, 54*ys+y, 59*ys+y, 57*ys+y, 59*ys+y, 54*ys+y};
+        g.drawPolygon(elx, ely, 6);
+        
+        int[] erx = {98*xs+x, 104*xs+x, 97*xs+x, 103*xs+x, 97*xs+x, 104*xs+x};
+        int[] ery = {60*ys+y, 63*ys+y, 63*ys+y, 66*ys+y, 63*ys+y, 63*ys+y};
+        g.drawPolygon(erx, ery, 6);
         
         g.setColor(bpink);
         g.drawOval(28*xs+x, 94*ys+y, 2*xs+x, 2*ys+y);
